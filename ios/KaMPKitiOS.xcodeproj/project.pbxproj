@@ -12,6 +12,7 @@
 		46A5B5EF26AF54F7002EFEAA /* BreedListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5B5EE26AF54F7002EFEAA /* BreedListScreen.swift */; };
 		46B5284D249C5CF400A7725D /* Koin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5284C249C5CF400A7725D /* Koin.swift */; };
 		A556246B295CC1CA00F48ECB /* SecretSantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556246A295CC1CA00F48ECB /* SecretSantaApp.swift */; };
+		A556246E295DE7EB00F48ECB /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556246D295DE7EB00F48ECB /* GroupsView.swift */; };
 		F1465F0A23AA94BF0055F7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1465F0923AA94BF0055F7C3 /* Assets.xcassets */; };
 		F1465F1823AA94C00055F7C3 /* KaMPKitiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465F1723AA94C00055F7C3 /* KaMPKitiOSTests.swift */; };
 		F1465F2323AA94C00055F7C3 /* KaMPKitiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465F2223AA94C00055F7C3 /* KaMPKitiOSUITests.swift */; };
@@ -41,6 +42,7 @@
 		46A5B5EE26AF54F7002EFEAA /* BreedListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListScreen.swift; sourceTree = "<group>"; };
 		46B5284C249C5CF400A7725D /* Koin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koin.swift; sourceTree = "<group>"; };
 		A556246A295CC1CA00F48ECB /* SecretSantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaApp.swift; sourceTree = "<group>"; };
+		A556246D295DE7EB00F48ECB /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		B859F3FB23133D22AB9DD835 /* Pods_KaMPKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaMPKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1F782AF3705197012D0C33 /* Pods-KaMPKitiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaMPKitiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KaMPKitiOS/Pods-KaMPKitiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F1465EFD23AA94BF0055F7C3 /* KaMPKitiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaMPKitiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A556246C295DE7C900F48ECB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A556246D295DE7EB00F48ECB /* GroupsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DF9BBECBCD175B90105DA8D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		F1465EFF23AA94BF0055F7C3 /* KaMPKitiOS */ = {
 			isa = PBXGroup;
 			children = (
+				A556246C295DE7C900F48ECB /* Views */,
 				46B5284C249C5CF400A7725D /* Koin.swift */,
 				F1465F0923AA94BF0055F7C3 /* Assets.xcassets */,
 				F1465F0E23AA94BF0055F7C3 /* Info.plist */,
@@ -350,6 +361,7 @@
 				46B5284D249C5CF400A7725D /* Koin.swift in Sources */,
 				461C74AA2788F5F3004B1FFC /* CombineAdapters.swift in Sources */,
 				46A5B5EF26AF54F7002EFEAA /* BreedListScreen.swift in Sources */,
+				A556246E295DE7EB00F48ECB /* GroupsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VH3SWF3AU;
 				INFOPLIST_FILE = KaMPKitiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +558,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VH3SWF3AU;
 				INFOPLIST_FILE = KaMPKitiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,7 +586,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KaMPKitiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -595,7 +607,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KaMPKitiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -615,6 +627,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KaMPKitiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -634,6 +647,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KaMPKitiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

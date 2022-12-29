@@ -21,7 +21,7 @@ struct SecretSantaApp: App {
     
     var body: some Scene {
         WindowGroup {
-            BreedListScreen()
+            GroupsView()
         }
     }
 }
