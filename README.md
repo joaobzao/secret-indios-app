@@ -1,5 +1,5 @@
 [![Secret-Indios-Android](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-Android.yml/badge.svg)](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-Android.yml)
-[![Secret-Indios-iOS](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml/badge.svg)](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml)
+[![Secret-Indios-iOS](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml/badge.svg?branch=main)](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml)
 
 # Secret indios app
 
