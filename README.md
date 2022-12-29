@@ -1,5 +1,5 @@
-[![KaMP Kit Android](https://img.shields.io/github/workflow/status/touchlab/KaMPKit/KaMPKit-Android/main?logo=Android&style=plastic)](https://github.com/touchlab/KaMPKit/actions/workflows/KaMPKit-Android.yml)
-[![KaMP Kit iOS](https://img.shields.io/github/workflow/status/touchlab/KaMPKit/KaMPKit-iOS?logo=iOS&style=plastic)](https://github.com/touchlab/KaMPKit/actions/workflows/KaMPKit-iOS.yml)
+[![Secret-Indios-Android](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-Android.yml/badge.svg)](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-Android.yml)
+[![Secret-Indios-iOS](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml/badge.svg)](https://github.com/joaobzao/secret-indios-app/actions/workflows/Secret-Indios-iOS.yml)
 
 # Secret indios app
 
