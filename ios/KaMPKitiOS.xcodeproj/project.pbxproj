@@ -11,6 +11,7 @@
 		461C74AA2788F5F3004B1FFC /* CombineAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C74A92788F5F3004B1FFC /* CombineAdapters.swift */; };
 		46A5B5EF26AF54F7002EFEAA /* BreedListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5B5EE26AF54F7002EFEAA /* BreedListScreen.swift */; };
 		46B5284D249C5CF400A7725D /* Koin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5284C249C5CF400A7725D /* Koin.swift */; };
+		A50166CC295E81F2002670D8 /* GroupItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50166CB295E81F2002670D8 /* GroupItemView.swift */; };
 		A556246B295CC1CA00F48ECB /* SecretSantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556246A295CC1CA00F48ECB /* SecretSantaApp.swift */; };
 		A556246E295DE7EB00F48ECB /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556246D295DE7EB00F48ECB /* GroupsView.swift */; };
 		F1465F0A23AA94BF0055F7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1465F0923AA94BF0055F7C3 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		461C74A92788F5F3004B1FFC /* CombineAdapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAdapters.swift; sourceTree = "<group>"; };
 		46A5B5EE26AF54F7002EFEAA /* BreedListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListScreen.swift; sourceTree = "<group>"; };
 		46B5284C249C5CF400A7725D /* Koin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koin.swift; sourceTree = "<group>"; };
+		A50166CB295E81F2002670D8 /* GroupItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupItemView.swift; sourceTree = "<group>"; };
 		A556246A295CC1CA00F48ECB /* SecretSantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaApp.swift; sourceTree = "<group>"; };
 		A556246D295DE7EB00F48ECB /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		B859F3FB23133D22AB9DD835 /* Pods_KaMPKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaMPKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A556246D295DE7EB00F48ECB /* GroupsView.swift */,
+				A50166CB295E81F2002670D8 /* GroupItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A556246B295CC1CA00F48ECB /* SecretSantaApp.swift in Sources */,
+				A50166CC295E81F2002670D8 /* GroupItemView.swift in Sources */,
 				46B5284D249C5CF400A7725D /* Koin.swift in Sources */,
 				461C74AA2788F5F3004B1FFC /* CombineAdapters.swift in Sources */,
 				46A5B5EF26AF54F7002EFEAA /* BreedListScreen.swift in Sources */,

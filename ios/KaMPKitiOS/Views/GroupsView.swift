@@ -44,21 +44,6 @@ struct GroupsView: View {
     }
 }
 
-struct GroupItemView: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "brain.head.profile")
-                .foregroundColor(Color.green)
-                .frame(width: 50, height: 50)
-                .background(Color("LightGreen"))
-                .cornerRadius(12)
-            Text("John 🎅")
-            
-            Spacer()
-        }
-    }
-}
-
 struct GroupsView_Preview: PreviewProvider {
     static var previews: some View {
             GroupsView()
