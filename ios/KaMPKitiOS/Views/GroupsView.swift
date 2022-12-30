@@ -38,8 +38,8 @@ struct GroupsView: View {
             })
             .navigationTitle("Santa Groups")
             .listStyle(.sidebar)
-            .listSectionSeparatorTint(Color("AccentGreen"))
             .scrollContentBackground(.hidden)
+            .tint(Color("AccentGreen"))
         }
     }
 }
