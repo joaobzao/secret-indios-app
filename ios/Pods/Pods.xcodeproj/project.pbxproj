@@ -294,6 +294,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		46EB2E00000380 /* [CP-User] Build shared */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
