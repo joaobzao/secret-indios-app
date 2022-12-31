@@ -18,7 +18,6 @@ struct GroupsView: View {
                             .listRowSeparator(.hidden)
                     }
                 }
-                
                 Section("Invites pending") {
                     ForEach(1...3, id: \.self) { _ in
                         GroupItemView()

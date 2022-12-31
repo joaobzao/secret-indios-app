@@ -312,7 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\n    echo \"swiftlint running..\"\nelse\n    echo \"WARNING: SwiftLint not installed\"\n    echo \"Use 'brew install swiftlint' to get the required tool\"\nfi\n";
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint --config .swiftlint.yml\n    echo \"swiftlint running..\"\nelse\n    echo \"WARNING: SwiftLint not installed\"\n    echo \"Use 'brew install swiftlint' to get the required tool\"\nfi\n";
 		};
 		9927C3E3A82FD5756098EAC1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
